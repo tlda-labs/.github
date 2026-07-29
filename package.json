@@ -1,0 +1,12 @@
+{
+  "name": "tlda-labs-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:marks": "node scripts/build-mark.mjs --tittle assets/tittles/basestar.svg --center 16.2,10 --box 10.15,9 --base-color '#222222' --output profile/assets/tlda-labs && node scripts/build-mark.mjs --tittle assets/tittles/reveal-boxes.svg --center 16,10 --box 10,9 --base-color '#D53F8C' --output profile/assets/quarto-tlda-revealjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "paper": "^0.12.18"
+  }
+}
